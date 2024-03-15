@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.main_background_gogaga {
+    padding-top: 90px;
+}
+
+.navbar_background {
+    background-color: black !important;
+    color: white !important;
+}
+
+.nav_item:hover {
+    background: white !important;
+    color: black !important;
+    padding: 5px 13px;
+    align-self: flex-start;
+
+}
+
+.image_logo_gh {
+    height: 4rem;
+}
+
+.button_bookNow,
+.ReadMore_button,
+.button_bookNow_home_screen,
+.Service_moreButton {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    align-self: flex-start;
+    padding: 5px 15px;
+    transition: 0.4s;
+}
+
+.searchBar {
+    padding: 5px 18px 4px 3px;
+    margin: 10px 5px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.button_bookNow:hover {
+    background: white;
+    color: black;
+    border: 1px solid white;
+    transform: scale(1.1);
+}
+
+.button_bookNow_home_screen:hover {
+    background: white;
+    color: black;
+    border: 1px solid white;
+    transform: scale(1.1);
+}
+
+.Service_moreButton:hover {
+    background: white;
+    color: black;
+    border: 1px solid white;
+    transform: scale(1.1);
+}
+
+.Gogaga_container_Main {
+    background-image: url("https://img.freepik.com/free-photo/city-water_1417-1896.jpg?t=st=1710501295~exp=1710504895~hmac=b3cfbb577d7fffafe9d0dd28f1556940e1de4223510bf5d0fb513c423dd41d75&w=996");
+    background-color: gray;
+    background-blend-mode: multiply;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: lighter;
+}
+
+.Goga_heading {
+    color: white !important;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.Gogaga_large_heading,
+.Para_main_goga {
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.Para_main_goga {
+    font-weight: 300;
+    font-size: 14px;
+    margin: 16px;
+}
+
+.button_bookNow_home_screen {
+    align-self: center;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+/*Container About*/
+.about_container {
+
+    background: black;
+    padding: 10px;
+}
+
+.about_image {
+    margin-left: -10px;
+    width: 90vw;
+}
+
+.hrLine {
+    border: 1px solid white;
+    margin: 0px 10px 10px 10px;
+}
+
+.about_heading,
+.aboutUs_para,
+.list_item {
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.GogagaName {
+    color: #ff2929;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.aboutUs_para {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.ullist {
+    list-style-type: none;
+}
+
+.aeroplaneSymbol {
+    color: white;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.list_item {
+    font-size: 14px;
+}
+
+.ReadMore_button {
+    margin-left: 30px;
+    transition: 0.4s;
+}
+
+.ReadMore_button:hover {
+    background: white;
+    border: 1px solid black;
+    color: black;
+    transform: translateX(10px);
+    font-weight: 400;
+}
+
+/*Services Container*/
+.services_container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.services_heading,
+.text_card {
+    font-size: 16px;
+    color: #707070;
+}
+
+.heading_ourservices {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.high_size_head {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.card_services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 2px 5px;
+    margin: 10px 15px;
+    border-radius: 3px;
+
+}
+
+.card_services:hover {
+    background-color: #ff2929;
+}
+
+.firstPart_container {
+    margin: 10px;
+}
+
+.text_card,
+.heading_card {
+    color: black;
+    font-size: 10px;
+    align-self: center;
+    text-align: right;
+}
+
+.heading_card {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card_image {
+    height: 15vh;
+    align-self: center;
+    margin: 0px;
+}
+
+.Service_moreButton {
+    align-self: center;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 300;
+}
+
+.Service_moreButton:hover {
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+/*Destination container*/
+.Destination_background {
+    padding: 18px;
+    background: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.part1_buttons_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button_destination {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.button_destination:hover {
+    background: white;
+    color: black;
+    font-weight: 300;
+    border: 1px solid black;
+}
+
+.photo_collections_image {
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.photo_collections_image:hover {
+    transform: scale(1.1);
+}
+
+/*packages Container*/
+.Packages_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.card_pricing,
+.card_pricing2,
+.card_pricing3,
+.card_pricing4 {
+    background-image: url("https://img.freepik.com/free-photo/aerial-view-dubai-city-from-top-tower_268835-1059.jpg?t=st=1710485840~exp=1710489440~hmac=7279d91a89496935bf547bac42d2c34b96be6c66edc0cb1dc6c2e921eef0dcb9&w=996");
+    width: 100%;
+    background-color: #818181;
+    background-blend-mode: multiply;
+    height: 25vh;
+    background-position: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    transition: 0.4s;
+}
+
+.card_pricing:hover {
+    transform: scale(1.05);
+}
+
+.card_pricing2:hover {
+    transform: scale(1.05);
+}
+
+.card_pricing3:hover {
+    transform: scale(1.05);
+}
+
+.card_pricing4:hover {
+    transform: scale(1.05);
+}
+
+.price_card {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    align-self: center;
+    background-color: black;
+    padding: 4px 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pricing_second_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 6px;
+}
+
+.location_pricing,
+.Days_pricing,
+.Person_pricing {
+    color: white;
+    border: 1px solid white;
+    align-self: center;
+
+}
+
+.Person_pricing {
+    font-size: 14px;
+}
+
+.card_pricing2 {
+    background-image: url("https://img.freepik.com/free-photo/merlion-statue-cityscape-singapore_335224-666.jpg?t=st=1710497007~exp=1710500607~hmac=4b46f6d402c4411dbcef62a052b8101a1854b0cae54ad5ebfcba8ca116e39f2a&w=996");
+}
+
+.card_pricing3 {
+    background-image: url("https://img.freepik.com/free-photo/china-arch_1127-3673.jpg?t=st=1710497107~exp=1710500707~hmac=7baab652ce14288b3585a3b9864aed59e40cff37547a9d95bcc35c32d3d52b3a&w=996");
+}
+
+/* booking Container*/
+.online_booking_page {
+    background: black;
+    padding: 16px;
+}
+
+.para_online_booking {
+    font-size: 14px;
+    color: #c4c4c4;
+}
+
+.bookOff {
+    font-weight: 400;
+    font-size: 17px;
+    color: #DC3545;
+}
+
+.tyoe_bar {
+    width: 100%;
+    margin: 6px;
+    padding: 10px;
+}
+
+/*footer Page Container*/
+.footerPage {
+    background: white;
+    padding: 15px;
+}
+
+.para_footer {
+    color: black;
+    font-size: 16px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.socicon {
+    font-size: 20px;
+    margin: 6px;
+}
+
+.socicon:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.payment_icon {
+    font-size: 32px;
+    margin: 10px;
+}
+
+.navHead {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .navHead {
+        display: block;
+        color: #cdcdcd;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .nav_item {
+        font-size: 20px;
+        margin: 5px 10px;
+    }
+
+    .button_bookNow {
+        align-self: center;
+        display: none;
+    }
+
+    .Goga_heading {
+        font-size: 28px;
+    }
+
+    .Gogaga_large_heading {
+        font-size: 35px;
+    }
+
+    .Para_main_goga {
+        font-size: 25px;
+    }
+
+    .searchBar {
+        padding: 10px 80px 10px 17px;
+    }
+
+    .about_image {
+        display: none;
+    }
+
+    .about_heading {
+        font-size: 36px;
+    }
+
+    .GogagaName {
+        font-size: 45px;
+    }
+
+    .aboutUs_para {
+        font-size: 24px;
+    }
+
+    .aeroplaneSymbol {
+        font-size: 24px;
+    }
+
+    .services_heading {
+        font-size: 30px;
+    }
+
+    .heading_ourservices {
+        font-size: 36px;
+    }
+
+    .high_size_head {
+        font-size: 40px;
+    }
+
+    .services_cards_container {
+        display: flex;
+
+        margin: 20px;
+    }
+
+    .buttons_container {
+        flex-direction: row;
+    }
+
+    .heading_card {
+        font-size: 22px;
+    }
+
+    .text_card {
+        font-size: 20px;
+    }
+
+    .medCoont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .para_online_booking {
+        font-size: 20px;
+    }
+
+    .tyoe_bar {
+        width: 50%;
+        font-size: 26px;
+    }
+
+    .med_get_head {
+        font-size: 36px;
+    }
+
+    .para_footer {
+        font-size: 25px;
+    }
+
+    .socicon {
+        font-size: 50px;
+    }
+
+    .payment_icon {
+        font-size: 60px;
+    }
+
+    .Gogaga_container_Main {
+        background-image: url("https://cdn.pixabay.com/photo/2017/12/16/22/23/regensburg-3023439_1280.jpg");
+    }
+}
